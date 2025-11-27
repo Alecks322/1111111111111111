@@ -1,0 +1,124 @@
+
+:root{
+  --theme-brand_primary: 0, 110, 255;
+  --theme-brand_secondary: 0, 110, 255;
+  --theme-brand_gradient: linear-gradient(60deg, rgb(0, 110, 255), rgba(0, 110, 255, 0.9));
+  --theme-brand_gradient_webkit: linear-gradient(60deg, rgb(0, 110, 255), rgba(0, 110, 255, 0.9));
+}
+
+
+#elFooterLinks li a:hover {
+  color: #006EFF !important;
+}
+
+.copyright:hover {
+  color: #006EFF !important;
+}
+
+
+a:hover,
+a:focus,
+.seo_feature_content a:hover,
+.seo_feature_content p a:hover,
+.ipsType_normal a:hover,
+.ipsContained a:hover,
+.ipsType_richText a:hover,
+.ipsType_medium a:hover,
+article a:hover,
+p a:hover {
+  color: #006EFF !important;
+}
+
+
+.quantity_manager {
+  border-color: #35383d !important;
+
+}
+
+.quantity_manager:hover, .quantity_manager:focus {
+  border-color: #006EFF !important;
+  box-shadow: 0 0 15px rgba(0, 110, 255, 0.5) !important;
+}
+
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #006EFF !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(0, 102, 255, 0.25) !important;
+}
+
+
+
+input[type="checkbox"]:focus {
+  border-color: #006EFF !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(0, 110, 255, 0.6) !important;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #006EFF !important;
+  border-color: #006EFF !important;
+}
+
+
+.ipsCustomInput input[type="checkbox"]:focus + span,
+#remember_me_checkbox:focus + span {
+  border-color: #006EFF !important;
+  box-shadow: 0 0 0 3px rgba(0, 110, 255, 0.6) !important;
+}
+
+.ipsCustomInput input[type="checkbox"]:checked + span,
+#remember_me_checkbox:checked + span {
+  background-color: #006EFF !important;
+  border-color: #006EFF !important;
+}
+
+.ipsCustomInput input[type="checkbox"]:checked + span:before,
+#remember_me_checkbox:checked + span:before {
+  border-color: #fff !important;
+}
+
+
+.theme-header__hero{
+  background-image:url('../images/84c1e40ea0e759e3f1505eb1788ddf3c_hero.webp');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+
+.ccNexusPackage li > i[class*="fa-"],
+.seo_features li > i[class*="fa-"],
+.seo_columns li > i[class*="fa-"],
+.requirements_section ul li i,
+.corefeatures_section ul li i,
+.box ul li i {
+  color: #006EFF !important;
+}
+
+.ipsNavBar_primary > ul > li > a:hover,
+.ipsNavBar_primary > ul > li > a:focus,
+.ipsNavBar_primary > ul > li > a:active {
+  color: #fff !important;
+}
+
+.onlineIcon {
+  background-image: linear-gradient(to right, #9dff88, #9dff88, #9dff88) !important;
+  color: #9dff88 !important;
+}
+
+.cOnlineUsers_co > span:first-child {
+  color: #9dff88 !important;
+}
+
+/* Product status pill alignment on product pages */
+.ccPackage_features > .productStatus > ._status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start !important;
+  text-align: left;
+}
